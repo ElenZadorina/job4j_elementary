@@ -2,8 +2,8 @@ package ru.job4j.condition;
 
 public class TriangleArea {
     public static double area(double a, double b, double c) {
-        double x = (a + b + c)/2;
-        double result = Math.sqrt(x * (x - a) * (x - b) *(x - c));
+        double x = (a + b + c) / 2;
+        double result = Math.sqrt(x * (x - a) * (x - b) * (x - c));
         return result;
     }
 
